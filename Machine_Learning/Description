@@ -1,1 +1,1 @@
-Trained a Decision tree ML model using dataset collected from the developed sensor which has over 560+ data on the following parameters AX,	AY,	AZ,	ROLL,	PITCH,	STATUS and label.
+Trained a Decision tree ML model using the dataset collected from developed sensor which has over 560+ data on the following parameters AX,	AY,	AZ,	ROLL,	PITCH,	STATUS and label.
