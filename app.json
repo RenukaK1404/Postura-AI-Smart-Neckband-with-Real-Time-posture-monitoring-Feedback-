@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "PostureMonitor",
+    "slug": "posture-monitor-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    
+    "userInterfaceStyle": "light",
+    
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "This app uses Bluetooth to connect to your posture monitoring device.",
+        "NSBluetoothPeripheralUsageDescription": "This app uses Bluetooth to receive posture data."
+      }
+    },
+    "android": {
+      
+      "permissions": [
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "BLUETOOTH_CONNECT",
+        "BLUETOOTH_SCAN",
+        "ACCESS_FINE_LOCATION",
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT"
+      ],
+      "package": "com.postura.app"
+    },
+    "plugins": [
+      "react-native-ble-plx",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8fda0232-6fdb-4681-a4ad-52720c7616bc"
+      }
+    }
+  }
+}

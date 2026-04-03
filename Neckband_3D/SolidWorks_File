@@ -1,0 +1,7 @@
+This folder contains the 3D design of the cervical posture monitoring neckband created in **SolidWorks** and rendering video and images.
+The neckband is ergonomically designed to sit at the **cervical spine (C3–C7)** region. It houses an **MPU6050 sensor** at the center to track posture angles and vibration motors on either side for corrective feedback.
+## Key Features
+- **Modular design** for easy sensor replacement  
+- **Lightweight curved structure** for comfort  
+- Slots for **LiPo battery** and Arduino Nano mount  
+- Optimized for 3D printing with minimal support material

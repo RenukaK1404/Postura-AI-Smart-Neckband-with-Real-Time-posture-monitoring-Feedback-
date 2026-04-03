@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "name": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good afternoon"],
+      "responses": [
+        "Hi — I'm your posture assistant. Tell me about your neck or shoulder pain and I'll try to help.",
+        "Hello! I can help with neck, shoulder and upper-back posture issues. What are you feeling?"
+      ]
+    },
+    {
+      "name": "neck_pain",
+      "patterns": [
+        "neck pain",
+        "stiff neck",
+        "pain in my neck",
+        "neck hurts",
+        "sore neck"
+      ],
+      "responses": [
+        "For neck pain related to posture: try gentle chin tucks, keep the screen at eye level, and take short breaks every 30 minutes.",
+        "Neck pain often comes from forward head posture. Straighten your neck, lower your shoulders, and try these stretches: look left-right, and gentle shoulder rolls."
+      ]
+    },
+    {
+      "name": "shoulder_pain",
+      "patterns": [
+        "shoulder pain",
+        "pain in my shoulder",
+        "shoulder hurts",
+        "rotator cuff",
+        "upper back pain"
+      ],
+      "responses": [
+        "Shoulder pain from slouching can improve with scapular squeezes — pull your shoulder blades together 10x every hour and strengthen mid-back muscles.",
+        "Try to avoid slumping; sit up, tuck your chin slightly, and do gentle doorway stretches for the chest to relieve shoulder tension."
+      ]
+    },
+    {
+      "name": "back_pain",
+      "patterns": [
+        "back pain",
+        "upper back pain",
+        "mid back",
+        "thoracic pain",
+        "hunch"
+      ],
+      "responses": [
+        "Upper-back discomfort is often postural. Use a lumbar-supported chair, sit tall, and perform mid-back extensions occasionally.",
+        "Focus on posture: roll shoulders back, open the chest, and take standing breaks to reduce back strain from slouching."
+      ]
+    },
+    {
+      "name": "posture_tips",
+      "patterns": [
+        "posture",
+        "slouch",
+        "slouching",
+        "forward head",
+        "ergonomics"
+      ],
+      "responses": [
+        "Keep your monitor at eye level, feet flat, shoulders relaxed, and take 2-minute posture breaks every 30 minutes.",
+        "Work on strengthening the deep neck flexors and mid-back; small daily habits (desk height, chair support) make a big difference."
+      ]
+    },
+    {
+      "name": "calibration_help",
+      "patterns": ["calibrate", "calibration", "zero", "reset sensor"],
+      "responses": [
+        "To calibrate the device, sit in a neutral upright posture and press the Calibrate button in the app. The device will record this as the neutral reference.",
+        "Calibration helps remove sensor drift. Sit comfortably upright, keep your head level, and use the app's Calibrate function once."
+      ]
+    },
+    {
+      "name": "fallback",
+      "patterns": [],
+      "responses": [
+        "I can help with neck, shoulder and upper-back posture and pain. Can you describe where it hurts or what you were doing when it started?",
+        "Sorry, I can only help with posture-related issues (neck, shoulder, upper back). Please ask about those topics."
+      ]
+    }
+  ]
+}

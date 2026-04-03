@@ -1,0 +1,1 @@
+The hardware circuit comproises of ESP32 WROOM Microcontroller, connected with MPU6050 IMU Sensor and two coin vibration motors for haptic feedback, when abnormal posture is detected. This work is done in a online software EasyEDA.
