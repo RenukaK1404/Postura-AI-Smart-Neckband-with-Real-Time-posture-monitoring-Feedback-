@@ -30,6 +30,9 @@ Built for AI-centric software innovation, it combines:
  4. **GPT-4o mini (Embedded LLM)** generates personalized feedback messages and adaptive motivational cues and enables natural **“AI coach”** conversations like ***“You’ve improved posture by 15% this week.”***
  5. Notification & Voice Layer offers a local push alerts for posture deviation and provides text-to-speech guidance such as ***“Please correct your posture and sit straight.”***
 
+<img width="1800" height="1200" alt="process flow diagram" src="https://github.com/user-attachments/assets/48884802-3c1a-4ef2-84cf-f9334312daca" />
+Fig. 1: Implementation plan
+
 ## Role of Artificial Intelligence
 - **Decision Tree Model** predicts posture from IMU readings with >90% accuracy.
 - **GPT-4o mini (LLM)** acts as an empathetic posture assistant generating natural language responses.
